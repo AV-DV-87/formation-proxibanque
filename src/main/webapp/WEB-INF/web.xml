@@ -3,4 +3,10 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
+
+	<!-- Documentation pour les pages d'erreurs : https://docs.oracle.com/cd/E19316-01/819-3669/bnahi/index.html -->
+	<error-page>
+		<error-code>404</error-code>
+		<location>/WEB-INF/error404.jsp</location>
+	</error-page>
 </web-app>

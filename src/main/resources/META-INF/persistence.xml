@@ -17,7 +17,7 @@
 			<property name="hibernate.connection.url"
 				value="jdbc:mysql://localhost:3306/proxibanque?useSSL=false" />
 			<property name="hibernate.connection.user" value="root" />
-			<property name="hibernate.connection.password" value="" />
+			<property name="hibernate.connection.password" value="root" />
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL57Dialect"/>
 			<property name="hibernate.hbm2ddl.auto" value="update"/>
 		</properties>

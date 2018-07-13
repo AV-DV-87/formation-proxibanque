@@ -24,7 +24,13 @@ public class WithdrawalComponent {
 		}
 		return result;
 	}
-
+	
+	/**
+	 * Retrait d'une CB
+	 * @param account
+	 * @param type
+	 * @return
+	 */
 	public Message processBankCard(Account account, TYPE_CARD type) {
 		final Message result = new Message(
 				"Retrait accepté, n'oubliez pas votre nouvelle carte !");

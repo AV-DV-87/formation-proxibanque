@@ -62,6 +62,7 @@
 						<li><a href="${rootUrl}/retrait/espece.html">Retrait en espèce</a></li>
 						<li><a href="${rootUrl}/retrait/cartebleue.html">Retrait d'une CB</a></li>
 						<li><a href="${rootUrl}/retrait/chequier.html">Demande de chéquier</a></li>
+						<li><a href="${rootUrl}/depot/especes.html">Dépôt de liquide</a></li>						
 						<li><a href="${rootUrl}/virement/interne.html">Effectuer un virement</a></li>
 					</ul>
 				</div>

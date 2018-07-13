@@ -41,6 +41,8 @@
 		class="fr.gtm.project.proxibanque.business.TransferComponent" />
 	<bean id="withdrawalComponent" scope="singleton"
 		class="fr.gtm.project.proxibanque.business.WithdrawalComponent" />
+	<bean id="depositComponent" scope="singleton"
+		class="fr.gtm.project.proxibanque.business.DepositComponent" />
 	
 	<bean id="entityManagerFactory"
 		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">

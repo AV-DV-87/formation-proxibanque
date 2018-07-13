@@ -3,5 +3,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <c:forEach items="${accounts}" var="account">
-	<option value="${account.id}">${account.label}</option>
+	<option value="${account.id}">${account.label} ${account.balance}</option>
 </c:forEach>
